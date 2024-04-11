@@ -80,6 +80,7 @@
                         <outlet property="UsernameTextField" destination="b6l-2b-VJL" id="cq8-p1-1yi"/>
                         <outlet property="forgotPasswordButton" destination="ZRr-CQ-39m" id="7db-ca-ZON"/>
                         <outlet property="forgotUsernameButton" destination="wMY-Ad-PjU" id="fbv-v5-Dxx"/>
+                        <segue destination="Q5o-j0-pE7" kind="show" identifier="mySegue" id="6ia-RJ-iuw"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -103,6 +104,9 @@
             <point key="canvasLocation" x="911" y="-27"/>
         </scene>
     </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="6ia-RJ-iuw"/>
+    </inferredMetricsTieBreakers>
     <resources>
         <systemColor name="systemGray5Color">
             <color red="0.8980392157" green="0.8980392157" blue="0.91764705879999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
